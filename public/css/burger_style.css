@@ -1,0 +1,26 @@
+body {
+  background: #7A8450;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+.readyEat{
+  display: inline-block;
+}
+
+h1, h2 {
+  font-family: 'Just Another Hand', cursive;
+}
+
+.burger_list {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 25px;
+}
+
+.burger_list button{
+  font-family: arial;
+  font-size: 12px;
+}
