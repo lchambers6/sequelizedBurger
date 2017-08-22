@@ -30,7 +30,7 @@ $(document).ready(function () {
                 if (data[i].devoured === true) {
                     $("#eatenBurgers").append("<ul>" + data[i].burger_name + "</ul>");
                 } else {
-                    $("#allBurgers").append("<li id='" + i + "'>" + data[i].burger_name + '  <button id="' + i + '" class="btn eatBurger">Eat it!</button>' + "</li>");
+                    $("#allBurgers").append("<ul id='" + i + "'>" + data[i].burger_name + '  <button id="' + i + '" class="btn eatBurger">Eat it!</button>' + "</ul>");
                 }
             }
         });
